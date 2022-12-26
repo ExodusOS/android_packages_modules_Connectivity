@@ -824,7 +824,7 @@ public class ConnectivitySettingsManager {
             @NonNull @PrivateDnsMode int mode) {
         if (!(mode == PRIVATE_DNS_MODE_OFF
                 || mode == PRIVATE_DNS_MODE_CLOUDFLARE
-                || mode == PRIVATE_DNS_MODE_ADGUAR
+                || mode == PRIVATE_DNS_MODE_ADGUARD
                 || mode == PRIVATE_DNS_MODE_OPPORTUNISTIC
                 || mode == PRIVATE_DNS_MODE_PROVIDER_HOSTNAME)) {
             throw new IllegalArgumentException("Invalid private dns mode");
